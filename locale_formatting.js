@@ -5,31 +5,31 @@ function lowercaseTimeFromDate(date){
   return date.replace("PM","pm").replace("AM","am");
 }
 
-function LT_Time(date){ 
+function Time_LT_(date){
   /* 12:43 pm | 'h:mm A' */ return date.format('LT'); }
-function lt_Time(date){ 
+function Time_lt_(date){
   /* 12:43 pm | 'h:mm a' */ return date.format('LT').toLowerCase(); }
 
-function LTS_TimeIncludeSeconds(date){ 
+function TimeIncludeSeconds_LTS_(date){
   /* 12:43:33 pm | 'hh:mm:ss A' */ return moment().format('LTS') }
-function lts_TimeIncludeSeconds(date){ 
+function TimeIncludeSeconds_lts_(date){
   /* 12:43:33 pm | 'hh:mm:ss a' */ return moment().format('LTS').toLowerCase() }
 
-function L_Date(date){ 
+function Date_L_(date){
   /* 05/07/2019 | 'MM/DD/YYYY' */ return date.format('L'); }
 
-function LL_MonthDayOfMonthYear(date){ 
+function MonthDayOfMonthYear_LL_(date){
   /* May 7, 2019 | 'MMMM D YYYY' */ return date.format('LL') }
-function ll_MonthDayOfMonthYear(date){ 
+function MonthDayOfMonthYear_ll_(date){
   /* May 7, 2019 | 'MMMM D YYYY' */ return lowercaseTimeFromDate(date.format('ll')) }
 
-function LLL_MonthDayOfMonthYearTime(date){ 
+function MonthDayOfMonthYearTime_LLL_(date){
   /* May 7, 2019 12:43 PM | 'MMMM D YYYY hh:mm:ss A' */ return date.format('LLL') }
-function lll_MonthDayOfMonthYearTime(date){ 
+function MonthDayOfMonthYearTime_lll_(date){
   /* May 7, 2019 12:43 PM | 'MMMM D YYYY hh:mm:ss a' */ return lowercaseTimeFromDate(date.format('lll'))}
 
-function LLLL_DayOfWeekMonthDayOfMonthYearTime(date){ 
+function DayOfWeekMonthDayOfMonthYearTime_LLLL_(date){
   /* Tuesday, August 7, 2019 12:43 PM | 'DD MMMM YYYY hh:mm:ss A' */ return date.format('LLLL') }
-function llll_DayOfWeekMonthDayOfMonthYearTime(date){
+function DayOfWeekMonthDayOfMonthYearTime_llll_(date){
   /* Tuesday, August 7, 2019 12:43 PM | 'DD MMMM YYYY hh:mm:ss A' */ return lowercaseTimeFromDate(date.format('llll'))
 }
