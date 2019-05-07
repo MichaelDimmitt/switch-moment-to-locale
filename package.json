@@ -1,0 +1,22 @@
+{
+  "name": "switch-moment-to-locale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelDimmitt/switch-moment-to-locale.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelDimmitt/switch-moment-to-locale/issues"
+  },
+  "homepage": "https://github.com/MichaelDimmitt/switch-moment-to-locale#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
