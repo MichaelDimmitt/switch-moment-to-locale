@@ -6,6 +6,15 @@ const US_Format = {
   REGULAR_TIME_LOWERCASE: "h:mm a", /* 7:32 AM */
   MILITARY_TIME: "h:mm"             /* 07:32 */ 
 }
+const moment = require('moment');
+console.log({
+  Regular_Time: "12:43 pm |h:mm a",
+  Time_With_Seconds: "12:43:33 PM | hh:mm:ss A",
+  Date_Numeric: "05/07/2019 | MM/DD/YYYY",
+  Month_Day_Year: "May 7, 2019 | MMMM D YYYY",
+  Month_Day_Year_Time: "May 7, 2019 12:43 PM | MMMM D YYYY hh:mm:ss A",
+  Day_Of_Week_Month_Day_Year_Time: "Tuesday, August 7, 2019 12:43 PM | DD MMMM YYYY hh:mm:ss A"
+})
 
 // // Format Dates
 // moment().format("MMMM Do YYYY, h:mm:ss a"); /* May 7th 2019, 12:17:00 pm */
