@@ -86,9 +86,3 @@ console.log(`
   lc ${moment(lc.toDate).lc_format('Day_Of_Week_Month_Day_Year_Time_Shrunk')}`
 )
 
-// console.log("bad-cases: ", "\n",
-//   {uselessObject: {frog: 'boo'}.mformat('Month_Day_Year_Time')},
-//   {badKey: moment().mformat('Month_Day_Year_Ti')},
-//   {noKey: moment().mformat()}
-// )
-
